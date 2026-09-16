@@ -1,0 +1,31 @@
+# --- Ambientes Python ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Node / frontend (webapp/frontend) ---
+webapp/frontend/node_modules/
+webapp/frontend/dist/
+webapp/frontend/.vite/
+
+# --- Dados derivados (o app recria automaticamente a partir de dados/*.csv) ---
+saidas/base_fato.csv
+
+# --- Segredos do Streamlit (nunca comitar) ---
+.streamlit/secrets.toml
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Editores / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
